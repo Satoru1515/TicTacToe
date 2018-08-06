@@ -112,7 +112,7 @@ public class MainActivity extends AppCompatActivity {
 
         findViewById(R.id.onePlayer).setEnabled(true);
         findViewById(R.id.configId).setAlpha(1);
-        findViewById(R.id.circle).setEnabled(false);
+        findViewById(R.id.circle).setEnabled(true);
     }
 
 
