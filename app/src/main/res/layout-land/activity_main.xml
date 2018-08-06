@@ -46,9 +46,9 @@
                 android:text="@string/imposible"
                 style="@style/checkBox"/>
             <Button
-                android:id="@+id/twoPlayers"
+                android:id="@+id/circle"
                 style="@style/btn"
-                android:text="@string/player_2"/>
+                android:text="@string/circles"/>
         </RadioGroup>
     </LinearLayout>
 
@@ -66,7 +66,7 @@
         <ImageView
             android:id="@+id/a1"
             style="@style/boxes"
-            android:src="@drawable/aspa"
+
             android:contentDescription="@string/todo" />
         <ImageView
             android:id="@+id/a2"

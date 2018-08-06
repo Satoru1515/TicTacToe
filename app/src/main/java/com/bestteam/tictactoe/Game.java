@@ -10,9 +10,10 @@ public class Game {
     private int[] BOXES;
 
     //Constructor
-    public Game(int dificult ){
+    public Game(int dificult, int player ){
         DIFICULT = dificult;
 
+        this.player = player;
         BOXES= new int[9];
         for(int i=0; i<9; i++) BOXES[i] = 0;
 

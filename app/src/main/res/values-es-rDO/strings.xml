@@ -2,8 +2,8 @@
 <resources>
     <string name="app_name">Tic Tac Toe</string>
 
-    <string name="player_1">Jugador 1</string>
-    <string name="player_2">Jugador 2</string>
+    <string name="player_1">Crosses</string>
+    <string name="circles">Circulos</string>
     <string name="easy">Fácil</string>
     <string name="normal">Normal</string>
     <string name="imposible">Imposible</string>
