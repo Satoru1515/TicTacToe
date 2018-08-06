@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
         }
          players=1;
 
-        if(view.getId() == R.id.twoPlayers){
+        if(view.getId() == R.id.circle){
             players=2;
         }
 
@@ -55,10 +55,11 @@ public class MainActivity extends AppCompatActivity {
         else if(id == R.id.imposible) {dificult=2;}
 
 
-        game = new Game(dificult);
+        game = new Game(dificult, players);
 
         findViewById(R.id.onePlayer).setEnabled(false);
         findViewById(R.id.configId).setAlpha(0);
+        findViewById(R.id.circle).setEnabled(false);
     }
 
     // This function is called when the player touch a Square
@@ -111,6 +112,7 @@ public class MainActivity extends AppCompatActivity {
 
         findViewById(R.id.onePlayer).setEnabled(true);
         findViewById(R.id.configId).setAlpha(1);
+        findViewById(R.id.circle).setEnabled(false);
     }
 
 
