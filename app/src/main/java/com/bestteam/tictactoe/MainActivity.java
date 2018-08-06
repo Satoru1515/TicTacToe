@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
+        findViewById(R.id.iaPlayer).setEnabled(false);
         //Initilize Array
         BOXES = new int [9];
 
@@ -57,11 +57,10 @@ public class MainActivity extends AppCompatActivity {
         else if(id == R.id.imposible) {dificult=2;}
 
 
-        game = new Game(dificult, players);
+        game = new Game(dificult);
 
         findViewById(R.id.onePlayer).setEnabled(false);
         findViewById(R.id.configId).setAlpha(0);
-        findViewById(R.id.twoPlayers).setEnabled(false);
     }
 
     // This function is called when the player touch a Square
@@ -114,7 +113,6 @@ public class MainActivity extends AppCompatActivity {
 
         findViewById(R.id.onePlayer).setEnabled(true);
         findViewById(R.id.configId).setAlpha(1);
-        findViewById(R.id.twoPlayers).setEnabled(true);
     }
 
 

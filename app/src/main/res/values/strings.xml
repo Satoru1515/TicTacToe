@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">TicTacToe</string>
 
-    <string name="player_1">Player 1</string>
-    <string name="player_2">Player 2</string>
+    <string name="player_1">Play !!</string>
+    <string name="iaPlayer">IA</string>
     <string name="easy">Easy</string>
     <string name="normal">Normal</string>
     <string name="imposible">Imposible</string>

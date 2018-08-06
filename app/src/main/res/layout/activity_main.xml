@@ -46,9 +46,9 @@
                 android:text="@string/imposible"
                 style="@style/checkBox"/>
             <Button
-                android:id="@+id/twoPlayers"
+                android:id="@+id/iaPlayer"
                 style="@style/btn"
-                android:text="@string/player_2"/>
+                android:text="@string/iaPlayer"/>
         </RadioGroup>
     </LinearLayout>
 
